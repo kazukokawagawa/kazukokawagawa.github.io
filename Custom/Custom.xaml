@@ -10,6 +10,15 @@
     </StackPanel>
 </local:MyCard>
 
+<local:MyCard Title="版本更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
+                    Text="目前最新版本v1.6!" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
+                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/oL6ls8" />
+    </StackPanel>
+</local:MyCard>
+
 <local:MyCard Title="游玩提示" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
@@ -46,5 +55,9 @@
                     Text="v1.5" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
                     Text="使用整合包zip安装方法，避免mc本体。&#xA;优化主页性能。&#xA;主页使用联网更新。&#xA;更换背景。&#xA;更换音乐。&#xA;" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
+                    Text="v1.6" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
+                    Text="更新1.16.5版本安装失败问题。" />
     </StackPanel>
 </local:MyCard>
