@@ -7,22 +7,24 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
                     Text="整合包名:休闲养老的快乐日常&#xA;作者:Chiyuyu_mua(林晚风)&#xA;帮助测试:AFH_Xymage&#xA;作者QQ2580099704&#xA;欢迎反馈Bug" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="10" Foreground="{DynamicResource ColorBrush4}"
+                    Text="没啥重大Bug应该是不会再更新了(小声喵喵)" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="版本更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="目前最新版本v2.0!" />
+                    Text="目前最新版本v2.1!" />
         <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
-                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/oL6ls8" />
+                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/GvQKiW" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="游玩提示" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="请把启动器目录下的zip文件拖入启动器进行安装!!&#xA;1.16.5在创建世界的时候一定要选择更多生物群系!!!&#xA;本整合包不提供模组教程，需要自行百度。" />
+                    Text="请把启动器目录下的zip文件拖入启动器进行安装!!&#xA;1.16.5在创建世界的时候一定要选择更多生物群系!!!&#xA;本整合包不提供模组教程，需要自行百度。&#xA;低配玩家自行下载铁氧体磁芯mod！" />
     </StackPanel>
 </local:MyCard>
 
@@ -63,5 +65,9 @@
                     Text="v2.0" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
                     Text="加了一堆生物群系，没错，真的是一堆！&#xA;加了一堆模组，没错，也真的是一堆模组！&#xA;加了一堆建筑方块，没错，也真的是一堆建筑方块！" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
+                    Text="v2.1" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
+                    Text="更新糖果世界。&#xA;更新豆腐世界。&#xA;解决光影问题。&#xA;解决合成冲突。" />
     </StackPanel>
 </local:MyCard>
