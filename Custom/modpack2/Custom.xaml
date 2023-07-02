@@ -6,7 +6,7 @@
 <local:MyCard Title="整合包介绍" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="整合包名:休闲养老的快乐日常&#xA;作者:Chiyuyu_mua(林晚风)&#xA;帮助测试:AFH_Xymage&#xA;2022.3.18&#xA;(2785505676)&#xA;作者QQ2580099704&#xA;欢迎反馈Bug" />
+                    Text="整合包名:林林的摆烂生活&#xA;作者:Chiyuyu_mua(林晚风)&#xA;帮助测试:AFH_Xymage&#xA;2022.3.18&#xA;(2785505676)&#xA;作者QQ2580099704&#xA;欢迎反馈Bug" />
     </StackPanel>
 </local:MyCard>
 
