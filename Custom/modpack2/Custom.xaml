@@ -1,0 +1,43 @@
+﻿<!-- 这是 PCL 的主页自定义文件。你可以通过修改这个文件来自定义 PCL 主页：添加文本、打开网页、启动游戏，等等。
+     如果你倒腾这个文件把 PCL 玩炸了，把这个文件直接删除就行了。
+     下列内容均基于 WPF 框架。你可以在继续之前先尝试自学 XAML 与 WPF 的基础，这能让你更轻松地理解下列内容。
+     你也可以使用 Ctrl + F 快速查找。例如，若需要改变文本颜色，则搜索 “颜色” 即可。 -->
+
+<local:MyCard Title="整合包介绍" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
+                    Text="整合包名:休闲养老的快乐日常&#xA;作者:Chiyuyu_mua(林晚风)&#xA;帮助测试:AFH_Xymage&#xA;2022.3.18&#xA;(2785505676)作者QQ2580099704&#xA;欢迎反馈Bug" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="版本更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
+                    Text="目前最新版本v1.0!" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
+                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/GvQKiW" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="游玩提示" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
+                    Text="请把启动器目录下的zip文件拖入启动器进行安装!!&#xA;本整合包不提供模组教程，需要自行百度。" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="QA" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
+                    Text="Q:游戏内存分配多少&#xA;A:建议4G。&#xA;&#xA;Q:游戏崩溃力!!!&#xA;A:建议检查崩溃日志，确认是整合包问题之后联系我，QQ2580099704&#xA;&#xA;Q:殴打作者&#xA;A:好啊欢迎" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="更新日志" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
+                    Text="v1.0" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
+                    Text="这个垃圾整合包诞生力(喜)" />
+    </StackPanel>
+</local:MyCard>
