@@ -15,9 +15,9 @@
 <local:MyCard Title="版本更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="目前最新版本v2.1!" />
+                    Text="目前最新版本v2.2!" />
         <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
-                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/GvQKiW" />
+                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/qRY5F3" />
     </StackPanel>
 </local:MyCard>
 
@@ -68,6 +68,10 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
                     Text="v2.1" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="更新糖果世界。&#xA;更新豆腐世界。&#xA;解决光影问题。&#xA;解决合成冲突。" />
+                    Text="更新糖果世界。&#xA;更新豆腐世界。&#xA;解决光影问题。&#xA;解决合成冲突。&#xA;" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
+                    Text="v2.2" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
+                    Text="加了2个装饰类mod。" />
     </StackPanel>
 </local:MyCard>
