@@ -3,28 +3,33 @@
      下列内容均基于 WPF 框架。你可以在继续之前先尝试自学 XAML 与 WPF 的基础，这能让你更轻松地理解下列内容。
      你也可以使用 Ctrl + F 快速查找。例如，若需要改变文本颜色，则搜索 “颜色” 即可。 -->
 
-<local:MyCard Title="整合包介绍" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+<local:MyCard Title="整合包介绍">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="整合包名:休闲养老的快乐日常&#xA;作者:Chiyuyu_mua(林晚风)&#xA;帮助测试:AFH_Xymage&#xA;作者QQ2580099704&#xA;欢迎反馈Bug" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="10" Foreground="{DynamicResource ColorBrush4}"
-                    Text="没啥重大Bug应该是不会再更新了(小声喵喵)" />
+        <local:MyListItem Margin="-5,15,-5,0" 
+		                  Logo="https://www.bilibili.com/favicon.ico" Title="BiliBili" Info="打开作者的B站         " 
+		                  EventType="打开网页" EventData="https://space.bilibili.com/546803670" Type="Clickable" />
+        <local:MyListItem Margin="-5,15,-5,0"
+		                  Logo="https://im.qq.com/favicon.ico" Title="作者QQ" Info="点击复制作者QQ"
+		                  EventType="复制文本" EventData="2580099704" Type="Clickable" />
+        <local:MyListItem Margin="-5,15,-5,0"
+		                  Logo="https://emojixd.com/favicon.ico" Title="注意事项" Info="不要对此端进行魔改倒卖"
+		                  EventType="打开网页" EventData="https://www.mcbbs.net/thread-1451072-1-1.html" Type="Clickable" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="版本更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="目前最新版本v2.6!" />
+                    Text="目前最新版本v2.7!" />
         <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
-                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/2yQNUN" />
+                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/VmR6Id" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="游玩提示" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="请把启动器目录下的zip文件拖入启动器进行安装!!&#xA;1.16.5在创建世界的时候一定要选择更多生物群系!!!&#xA;本整合包不提供模组教程，需要自行百度。&#xA;低配玩家自行下载铁氧体磁芯mod！" />
+                    Text="请把启动器目录下的zip文件拖入启动器进行安装!!&#xA;1.16.5在创建世界的时候一定要选择更多生物群系!!!&#xA;本整合包不提供模组教程，需要自行百度。&#xA;低配玩家自行下载铁氧体磁芯mod！&#xA;装备品质的按键(K)和夸克模组有冲突，请自行修改。" />
     </StackPanel>
 </local:MyCard>
 
