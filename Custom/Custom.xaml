@@ -20,16 +20,16 @@
 <local:MyCard Title="版本更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="目前最新版本v3.0!" />
+                    Text="目前最新版本v3.1!" />
         <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
-                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/9YqzUd" />
+                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/62mETN" />
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="游玩提示" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="请把启动器目录下的zip文件拖入启动器进行安装!!&#xA;1.16.5在创建世界的时候一定要选择更多生物群系!!!&#xA;本整合包不提供模组教程，需要自行百度。&#xA;低配玩家自行下载铁氧体磁芯mod！&#xA;装备品质的按键(K)和夸克模组有冲突，请自行修改。" />
+                    Text="请把启动器目录下的zip文件拖入启动器进行安装!!&#xA;1.16.5在创建世界的时候一定要选择更多生物群系!!!&#xA;本整合包不提供模组教程，需要自行百度。&#xA;按下~开启连锁&#xA;低配玩家自行下载铁氧体磁芯mod！&#xA;装备品质的按键(K)和夸克模组有冲突，请自行修改。&#xA;本整合包不再维护，不再更新，感谢各位玩家支持。" />
     </StackPanel>
 </local:MyCard>
 
@@ -37,58 +37,5 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
                     Text="Q:游戏内存分配多少&#xA;A:建议6G。&#xA;&#xA;Q:游戏崩溃力!!!&#xA;A:建议检查崩溃日志，确认是整合包问题之后联系我，QQ2580099704&#xA;&#xA;Q:殴打作者&#xA;A:好啊欢迎" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="更新日志" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v1.1" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="修复了整合包在启动时下载资源404问题。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v1.2" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="修复了内置启动器的兼容问题。&#xA;优化游戏性能。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v1.3" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="修复游戏创建世界问题。&#xA;对PCL2主页文件进行优化。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v1.4" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="删除内置播放器mod，解决崩溃。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v1.5" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="使用整合包zip安装方法，避免mc本体。&#xA;优化主页性能。&#xA;主页使用联网更新。&#xA;更换背景。&#xA;更换音乐。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v1.6" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="更新1.16.5版本安装失败问题。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush3}"
-                    Text="v2.0" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="加了一堆生物群系，没错，真的是一堆！&#xA;加了一堆模组，没错，也真的是一堆模组！&#xA;加了一堆建筑方块，没错，也真的是一堆建筑方块！" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v2.1" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="更新糖果世界。&#xA;更新豆腐世界。&#xA;解决光影问题。&#xA;解决合成冲突。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v2.2" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="加了2个装饰类mod。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v2.3" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="加了2个附魔类mod。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v2.4" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="打工人修Bug。&#xA;" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="v2.5" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="13" Foreground="{DynamicResource ColorBrush2}"
-                    Text="更新日志不再维护。" />
     </StackPanel>
 </local:MyCard>
