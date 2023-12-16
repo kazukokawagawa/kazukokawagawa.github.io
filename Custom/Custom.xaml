@@ -20,9 +20,9 @@
 <local:MyCard Title="版本更新" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="17" Foreground="{DynamicResource ColorBrush2}"
-                    Text="目前最新版本v3.1!" />
+                    Text="目前最新版本v3.4!" />
         <local:MyButton Margin="0,4,0,10" Width="250" Height="35" ColorType="Highlight"
-                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/62mETN" />
+                    Text="点击更新!!!" EventType="打开网页" EventData="https://pan.huang1111.cn/s/PNWBim" />
     </StackPanel>
 </local:MyCard>
 
