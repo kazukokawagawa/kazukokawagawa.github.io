@@ -1,2 +1,1 @@
-# kazukokawagawa.github.io
-blog
+
