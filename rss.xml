@@ -4,11 +4,19 @@
         <title>池鱼小栈</title>
         <link>https://chiyu.it</link>
         <description>Hello World</description>
-        <lastBuildDate>Sat, 03 May 2025 02:26:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 May 2025 02:46:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>池鱼</generator>
         <language>zh</language>
         <copyright>Copyright © 2020-present 池鱼</copyright>
+        <item>
+            <title><![CDATA[更新日志]]></title>
+            <link>https://chiyu.it/posts/2025/0503</link>
+            <guid>https://chiyu.it/posts/2025/0503</guid>
+            <pubDate>Sat, 03 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[网站更新日志]]></description>
+            <author>kazukokawagawa@qq.com (池鱼)</author>
+        </item>
         <item>
             <title><![CDATA[主题语法测试]]></title>
             <link>https://chiyu.it/posts/2025/0430</link>
