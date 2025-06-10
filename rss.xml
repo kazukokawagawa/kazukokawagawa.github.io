@@ -3,8 +3,8 @@
     <channel>
         <title>池鱼小栈</title>
         <link>https://chiyu.it</link>
-        <description>Hello World</description>
-        <lastBuildDate>Tue, 10 Jun 2025 14:25:11 GMT</lastBuildDate>
+        <description>跨过晨昏线，便是永夜。</description>
+        <lastBuildDate>Tue, 10 Jun 2025 20:07:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>池鱼</generator>
         <language>zh</language>
@@ -35,8 +35,8 @@
         </item>
         <item>
             <title><![CDATA[主题语法测试]]></title>
-            <link>https://chiyu.it/posts/2025/0430</link>
-            <guid>https://chiyu.it/posts/2025/0430</guid>
+            <link>https://chiyu.it/posts/archives/0430</link>
+            <guid>https://chiyu.it/posts/archives/0430</guid>
             <pubDate>Wed, 30 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[主题Markdown语法测试。]]></description>
             <author>kazukokawagawa@qq.com (池鱼)</author>
